@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSerialization.Benchmark", "JsonSerialization.Benchmark\JsonSerialization.Benchmark.csproj", "{7AF60855-55E5-412E-B6DB-274BFD9A0102}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonSerialization", "JsonSerialization", "{964229CC-08C2-4AF9-B871-45F5C539377B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSerialization.Web", "JsonSerialization.Web\JsonSerialization.Web.csproj", "{C314BFC3-CD1C-44C7-881B-EAF2D6ED3C12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewLanguageFeatures", "NewLanguageFeatures", "{CA54A77A-CEC4-481C-8459-2349659E03FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1-PrimaryConstructors", "F1-PrimaryConstructors\F1-PrimaryConstructors.csproj", "{4A5AD5B9-ECBE-4B8E-953F-8528B50039B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F2-CollectionExpressions", "F2-CollectionExpressions\F2-CollectionExpressions.csproj", "{E7A10C3F-5C67-41A8-8684-3BF1272DEC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F3-StaticAbstractInterfaceMethods", "F3-StaticAbstractInterfaceMethods\F3-StaticAbstractInterfaceMethods.csproj", "{864BE7D7-0920-4F65-BD9F-6A72D9F1C005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSerialization.Common", "JsonSerialization.Common\JsonSerialization.Common.csproj", "{3BB2A68E-D7CE-4A0C-BDD3-A864F4303846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF60855-55E5-412E-B6DB-274BFD9A0102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF60855-55E5-412E-B6DB-274BFD9A0102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF60855-55E5-412E-B6DB-274BFD9A0102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF60855-55E5-412E-B6DB-274BFD9A0102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C314BFC3-CD1C-44C7-881B-EAF2D6ED3C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C314BFC3-CD1C-44C7-881B-EAF2D6ED3C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C314BFC3-CD1C-44C7-881B-EAF2D6ED3C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C314BFC3-CD1C-44C7-881B-EAF2D6ED3C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5AD5B9-ECBE-4B8E-953F-8528B50039B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5AD5B9-ECBE-4B8E-953F-8528B50039B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5AD5B9-ECBE-4B8E-953F-8528B50039B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5AD5B9-ECBE-4B8E-953F-8528B50039B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A10C3F-5C67-41A8-8684-3BF1272DEC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A10C3F-5C67-41A8-8684-3BF1272DEC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A10C3F-5C67-41A8-8684-3BF1272DEC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A10C3F-5C67-41A8-8684-3BF1272DEC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864BE7D7-0920-4F65-BD9F-6A72D9F1C005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864BE7D7-0920-4F65-BD9F-6A72D9F1C005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864BE7D7-0920-4F65-BD9F-6A72D9F1C005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864BE7D7-0920-4F65-BD9F-6A72D9F1C005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB2A68E-D7CE-4A0C-BDD3-A864F4303846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB2A68E-D7CE-4A0C-BDD3-A864F4303846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB2A68E-D7CE-4A0C-BDD3-A864F4303846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB2A68E-D7CE-4A0C-BDD3-A864F4303846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AF60855-55E5-412E-B6DB-274BFD9A0102} = {964229CC-08C2-4AF9-B871-45F5C539377B}
+		{C314BFC3-CD1C-44C7-881B-EAF2D6ED3C12} = {964229CC-08C2-4AF9-B871-45F5C539377B}
+		{4A5AD5B9-ECBE-4B8E-953F-8528B50039B4} = {CA54A77A-CEC4-481C-8459-2349659E03FD}
+		{E7A10C3F-5C67-41A8-8684-3BF1272DEC40} = {CA54A77A-CEC4-481C-8459-2349659E03FD}
+		{864BE7D7-0920-4F65-BD9F-6A72D9F1C005} = {CA54A77A-CEC4-481C-8459-2349659E03FD}
+		{3BB2A68E-D7CE-4A0C-BDD3-A864F4303846} = {964229CC-08C2-4AF9-B871-45F5C539377B}
+	EndGlobalSection
+EndGlobal
