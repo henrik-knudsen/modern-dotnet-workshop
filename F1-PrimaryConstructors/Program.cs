@@ -8,6 +8,13 @@ Console.WriteLine(user.FullName);
 
 
 
+public record Person(string FirstName, string LastName)
+{
+    
+}
+
+
+
 
 public class User(string firstname, string lastname)
 {

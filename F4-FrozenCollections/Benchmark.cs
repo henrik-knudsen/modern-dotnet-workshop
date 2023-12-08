@@ -16,16 +16,16 @@ public class Benchmark
         Name = "Bar"
     };
 
-    private static readonly Dictionary<int, Foo> Dictionary100 = Enumerable.Range(0, 100).ToDictionary(k => k, _ => MyFoo);
+    private static readonly Dictionary<int, Foo> Dictionary10000 = Enumerable.Range(0, 10_000).ToDictionary(k => k, _ => MyFoo);
 
-    private static readonly FrozenDictionary<int, Foo> FrozenDictionary100 = Dictionary100.ToFrozenDictionary();
+    private static readonly FrozenDictionary<int, Foo> FrozenDictionary10000 = Dictionary10000.ToFrozenDictionary();
 
 
 
     [Benchmark]
     public Foo? TryGetValue_Dictionary()
     {
-        Dictionary100.TryGetValue(100, out var value);
+        Dictionary10000.TryGetValue(100, out var value);
 
         return value;
     }
@@ -35,7 +35,7 @@ public class Benchmark
     [Benchmark]
     public Foo? TryGetValue_FrozenDictionary()
     {
-        FrozenDictionary100.TryGetValue(100, out var value);
+        FrozenDictionary10000.TryGetValue(100, out var value);
 
         return value;
     }
