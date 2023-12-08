@@ -1,3 +1,4 @@
+using System.Text.Json;
 using JsonSerialization;
 using JsonSerialization.Common;
 
@@ -9,7 +10,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureHttpJsonOptions(opt =>
 {
-    opt.SerializerOptions.TypeInfoResolverChain.Add(AppSerializerContext.Default);
+    opt.SerializerOptions.TypeInfoResolver = AppSerializerContext.Default;
+    opt.SerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower;
 });
 
 var app = builder.Build();
@@ -20,6 +22,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
 
 app.UseHttpsRedirection();
 
